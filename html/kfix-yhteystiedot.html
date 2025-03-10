@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yhteystiedot</title> <!-- Sivun webbinimi -->
+    <link rel="stylesheet" href="kfixyhteystiedot.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />     <!-- Fontawesomin linkki jotta ikonit toimisi -->
+  </head>
+  <body>
+    <!-- Navigointipalkki -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo">
+            <img src="K-Fix-logo.jpg" alt="K-fix-logo"/>
+          </a>
+        </a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links" id="etusivu-page">Etusivu</a>
+          </li>
+          <li class="navbar__item">
+            <a href="kfix-palvelut.html" class="navbar__links" id="palvelut-page">Palvelut</a>
+          </li>
+          <li class="navbar__item">
+            <a href="kfix-yhteystiedot.html" class="navbar__links" id="yhteystiedot-page"
+              >Yhteystiedot</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#Tilaa" class="button" id="Tilaa">Tilaa</a>
+          </li>
+          <li class="navbar__cart">
+            <a href="#cart"><i class="fas fa-cart-plus"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!-- yhteystiedot osio -->
+    <div class="container">
+      <h1></h1>
+      <h2>Yhteystiedot</h2>
+      <p>K-Fix asiakaspalvelu sinun tukenasi!</p>
+      <div class="contact-box">    <!-- yhteydenottolomake ja vasemman puolen yhteystiedot. jaettu kahteen CSS puolella -->
+        <div class="contact-left">
+          <h3>Jätä yhteydenottopyyntö. Otamme sinuun yhteyttä viimeistään 24 tunnin sisällä.</h3>
+          <form>
+
+            <div class="input-row">
+              <div class="input-group">
+                <label>Nimi</label>
+                <input type="text" placeholder="Etunimi Sukunimi">     <!-- placeholder on se kenttä johon asiakas kirjoittaa -->
+            </div>
+            <div class="input-group">
+              <label>Puhelinnumero</label>
+              <input type="text" placeholder="Muodossa +358">
+          </div>
+
+            </div>
+            <div class="input-row">
+              <div class="input-group">
+                <label>Sähköposti</label>
+                <input type="email" placeholder="maija.meikalainen@esimerkki.com">
+            </div>
+            <div class="input-group">
+              <label>Aihe</label>
+              <input type="text" placeholder="">
+          </div>
+
+            </div>
+
+            <label>Asiasi</label>
+            <textarea rows="5" placeholder="Kerro lyhyesti miten voisimme olla avuksi. "></textarea><!-- viestikenttä -->
+  
+          <button type="submit">Lähetä</button>
+          </form>
+        </div>
+          <div class="contact-right"><!-- oikean puolen yhteystiedot -->
+            <h3>Ota Yhteyttä</h3>
+          
+            <table>
+              <tr>
+                <td>Sähköposti:</td>
+                <td>asiakaspalvelu@k-fix.fi</td>
+              </tr>
+              <tr>
+                <td>Soita:</td>
+                <td>+358 407800962</td>
+              </tr>
+              <tr>
+                <td>Osoite:</td>
+                <td>Arabia Kauppakeskus,<br>
+                  Hämeentie 111, 00560 Helsinki<br>
+                  Suomi | Finland 
+                </td>
+              </tr> <!-- laittaa taulkko ja rivi tyyliseen asetteluun yhteystiedot kohdassa. vasen puoli. -->
+
+            </table>
+
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer osio -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Meistä</h2>
+            <a href="/sign__up">Historiamme</a> <a href="/">Tyytyväisyys</a>
+            <a href="/">Ura K-Fixillä</a> <a href="/">Tietosuojaseloste</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Ota yhteyttä</h2>
+            <a href="/">S-posti</a> <a href="/">Soita</a>
+            <a href="/">Anna palautetta</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Palvelut</h2>
+            <a href="/">Puhdistus</a> <a href="/">Huolto</a>
+            <a href="/">Tarvikkeet</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Seuraa meitä</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">K-FIX</a>
+          </div>
+          <p class="website__rights">© K-FIX 2025. All rights reserved</p>
+          <div class="social__icons">
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
