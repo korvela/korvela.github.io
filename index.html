@@ -1,1 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lähetä kenkäsi tänään ja me hoidamme SINUN puolestasi</title> <!-- Sivun otsikon nimi -->
+    <link rel="stylesheet" href="kfix.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" 
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" 
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navigointipalkin kohta -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="kfix-etusivu.html" id="navbar__logo">
+          <img src="K-Fix-logo.jpg" alt="K-fix-logo"/>
+        </a> <!-- logo etusivulla-->
+        <div class="navbar__toggle" id="mobile-menu"><!-- mobiilin hampurilaisvalikko -->
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu"> <!-- navigaatio valkikko sivustossa -->
+          <li class="navbar__item">
+            <a href="kfix-etusivu.html" class="navbar__links" id="etusivu-page">Etusivu</a>
+          </li>
+          <li class="navbar__item">
+            <a href="kfix-palvelut.html" class="navbar__links" id="palvelut-page">Palvelut</a>
+          </li>
+          <li class="navbar__item">
+            <a href="kfix-yhteystiedot.html" class="navbar__links" id="yhteystiedot-page"
+              >Yhteystiedot</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#Tilaa" class="button" id="Tilaa">Tilaa</a><!-- Tilaa nappi -->
+          </li>
+          <li class="navbar__cart">
+            <a href="#cart"><i class="fas fa-cart-plus"></i></a><!-- Ostoskori ikoni -->
+          </li>
+        </ul>
+      </div>
+    </nav>
 
+    <!-- pää kohta -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <img src="kuva1.png" alt="kuva1">
+        <img src="kuva2.png" alt="kuva2">
+        <h1 class="hero__heading">Lähetä kenkäsi tänään, <br> me hoidamme loput <br> <span></span></h1><!-- ylin otsikko  -->
+        <p class="hero__description">Puhtaat kengät, likainen elämä</p>
+        <button class="main__btn"><a href="#">Kengät kuin uudet-nappaa puhdistus meiltä!</a></button>
+      </div>
+    </div>
+
+    <!-- Palvelut osio -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"><i class="fas fa-credit-card"></i></div><!-- lompakko ikoni -->
+        </div>
+        <div class="main__content">
+          <h1>Palvelut</h1>
+          <h2>Monipuolista palvelua edullisesti</h2>
+          <p>Tilaa 2+ kenkäparin huolto - saat lestituen kaupan päälle! Yli 100 € tilaukset myös ilman postikuluja.</p>
+          <button class="main__btn"><a href="#">Tilaa</a></button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Yhteystiedot osio -->
+    <div class="services" id="services">
+      <h1>Yhteystiedot</h1><!-- yhteystiedot -->
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Asiakaspavelu</h2><!-- asiakaspalvelu -->
+          <p>asiakaspalvelu@k-fix.fi</p>
+          <div class="services__btn"><button>Sähköposti</button></div> <!-- sähköposti -->
+        </div>
+        <div class="services__card">
+          <h2>Tule meille töihin!</h2>
+          <p>Ura K-Fixillä - liity osaksi menestyvää ja maanlaajuista työyhteisöämme.</p>
+          <div class="services__btn"><button>Töihin</button></div><!-- duuniin nappi -->
+        </div>
+        <div class="services__card">
+          <h2>Tietoa meistä</h2>
+          <p></p>
+          <div class="services__btn"><button>K-Fix Historia</button></div>
+        </div>
+        <div class="services__card"><!-- palaute K-Fixille -->
+          <h2>Ilmoita tuotevalitus</h2>
+          <p>Laadun seuraamisen ja kehittämisen kannalta on tärkeää, että saammme asiakkaiden palautetta palvelustamme.</p>
+          <div class="services__btn"><button>Anna palautetta</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Tilaa ja koe, miten elämäsi muuttuu - ainutlaatuinen kengänpuhdistuspalvelu!</h1>
+          <h2></h2>
+          <button class="main__btn"><a href="#">Tilaa</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <i class="fas fa-users"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer osio -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Meistä</h2>
+            <a href="/sign__up">Historiamme</a> <a href="/">Tyytyväisyys</a>
+            <a href="/">Ura K-Fixillä</a> <a href="/">Tietosuojaseloste</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Ota yhteyttä</h2>
+            <a href="/">S-posti</a> <a href="/">Soita</a>
+            <a href="/">Anna palautetta</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Palvelut</h2>
+            <a href="/">Puhdistus</a> <a href="/">Huolto</a>
+            <a href="/">Tarvikkeet</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Seuraa meitä</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">K-FIX</a>
+          </div>
+          <p class="website__rights">© K-FIX 2025. All rights reserved</p> <!-- tekijänoikeus K-Fix -->
+          <div class="social__icons"><!-- kaikki yt, face ja muut some ikonit -->
+            <a href="/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script> <!-- app.js kohtaan linkki -->
+  </body>
+</html>
